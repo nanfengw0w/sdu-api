@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  if (req.method === 'POST') {
+  if (req.method === 'GET') { // 改为 GET
     res.status(200).json({
       code: 200,
       msg: "成功",
